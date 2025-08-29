@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+body {
+  font-family: 'Outfit';
+  background-color: #FFE5EC;
+}
+
+.ff_Road {
+  font-family: 'Road Rage' !important;
+}
+
+
+
+.nav_bg {
+  background: linear-gradient(to right, #fde9f0 10%, #fceef4 50%, #fde9f0 90%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.text-color {
+  color: #e6498f !important
+}
+
+.shadow {
+  box-shadow: -5px 5px 40px 0px rgba(244, 76, 139, 0.4);
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1%;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(to right,
+      #f7d4e6,
+      /* light blush pink */
+      #fcb3d7,
+      /* soft candy pink */
+      #fcd5e8
+      /* pastel baby pink */
+    );
+}
+
+
+@media (min-width: 320px) and (max-width:768px) {
+  .slick-prev {
+    padding-bottom: 50px !important;
+    position: absolute !important;
+    right: 0% !important;
+    top: -3% !important;
+    left: 0 !important;
+
+  }
+
+  .slick-next {
+    padding-bottom: 50px !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: -3% !important;
+    left: 20% !important;
+
+  }
+}
+
+
+@media (min-width: 475px) and (max-width: 767px) {
+  .custom-width {
+    width: 80% !important;
+  }
+
+  .header_card {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+
+
+}
+
+@media (min-width: 863px) and (max-width:1024px) {
+  .custom-img {
+    left: 20.3% !important;
+    top: 4% !important;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width:560px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -2.8% !important;
+    top: 0% !important;
+  }
+}
+
+@media (min-width: 350px) and (max-width:560px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -2% !important;
+    top: 0% !important;
+  }
+
+  /* .img_width {
+    width: 300px !important;
+  } */
+}
+
+@media (min-width: 487px) and (max-width:560px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -1.6% !important;
+    top: 0% !important;
+  }
+
+  .img_width {
+    width: 300px !important;
+  }
+}
+
+
+@media (min-width: 560px) and (max-width:650px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -0.8% !important;
+    top: 0% !important;
+  }
+}
+
+
+@media (min-width: 650px) and (max-width:767px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -0.6% !important;
+    top: 0% !important;
+  }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width:899px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -2% !important;
+    top: 0% !important;
+  }
+}
+
+
+@media (min-width: 900px) and (max-width:1023px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -1.2% !important;
+    top: 0% !important;
+  }
+}
+
+
+
+@media (min-width:1024px) and (max-width:1080px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -0.9% !important;
+    top: 0% !important;
+  }
+}
+
+
+@media (min-width:1081px) and (max-width:1280px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -0.8% !important;
+    top: 0% !important;
+  }
+}
+
+
+
+@media (min-width: 1280px) and (max-width:1556px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -0.4% !important;
+    top: 0% !important;
+  }
+}
+
+@media (min-width : 1557px) {
+  .dotPosition {
+    position: absolute !important;
+    left: -0.2% !important;
+    top: 0% !important;
+  }
+
+}
+
+
+.loader {
+  width: 120px;
+  height: 24px;
+  -webkit-mask:
+    radial-gradient(circle closest-side, #000 94%, #0000) 0 0/25% 100%,
+    linear-gradient(#000 0 0) center/calc(100% - 12px) calc(100% - 12px) no-repeat;
+  background:
+    linear-gradient(#25b09b 0 0) 0/0% no-repeat #ddd;
+  animation: l7 2s infinite linear;
+}
+
+@keyframes l7 {
+  100% {
+    background-size: 100%
+  }
+}
+
+
+@keyframes advancedFloating {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  20% {
+    transform: translate(10px, -15px) scale(1.02);
+    /* Slight right & up */
+  }
+
+  40% {
+    transform: translate(-10px, 10px) scale(1);
+    /* Slight left & down */
+  }
+
+  60% {
+    transform: translate(15px, -10px) scale(1.03);
+    /* More right & up */
+  }
+
+  80% {
+    transform: translate(-15px, 10px) scale(1);
+    /* More left & down */
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.animate-advancedFloating {
+  animation: advancedFloating 5s infinite ease-in-out;
+}

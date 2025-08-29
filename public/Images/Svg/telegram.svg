@@ -1,0 +1,44 @@
+
+<svg width="32" height="28" viewBox="0 0 32 28" fill="
+#ec2b82" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.2616 0.884971L1.56165 11.885C0.661649 12.185 0.76165 13.485 1.66165 13.785L8.66165 15.985L11.4616 24.785C11.6616 25.485 12.5616 25.685 13.0616 25.185L17.1616 21.385L24.9616 27.085C25.5616 27.485 26.3617 27.185 26.5617 26.485L31.9616 3.28497C32.2616 1.58497 30.7616 0.284971 29.2616 0.884971ZM13.0616 17.685L12.1616 22.885L10.1616 15.685L29.6616 2.88497L13.0616 17.685Z" fill="
+#ec2b82"/>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
