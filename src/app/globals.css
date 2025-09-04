@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Outfit';
-  background-color: #FFE5EC;
+  /* background-color: #FFE5EC; */
 }
 
 .ff_Road {
@@ -257,3 +257,60 @@ html {
 .animate-advancedFloating {
   animation: advancedFloating 5s infinite ease-in-out;
 }
+
+@keyframes sparkleFloat {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-200px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+.sparkle-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  /* prevents sparkles from blocking clicks */
+}
+
+.sparkle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f369aa, #ffccd5, transparent);
+  animation: sparkleFloat 6s infinite ease-in-out;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-animated {
+  background: linear-gradient(270deg,
+      #f3c2d7,
+      #e49fb8,
+      #f9cce2d4,
+      #fbb1d3,
+      #e3b8bd,
+      #ffc8dd,
+      #ffafcc);
+  background-size: 1200% 1200%;
+  animation: gradientShift 12s ease-in-out infinite;
+}
+

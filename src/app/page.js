@@ -101,14 +101,35 @@ export default function Home() {
 
   return (
 
-    <>
+    <div className="bg-animated">
 
       {loading && <Loader />}
 
       {/* ******************************
         Header Section Start 
        ****************************** */}
-      <header className=" px-5 md:px-9 lg:px-14 relative  overflow-hidden">
+      <header className=" px-5  md:px-9 lg:px-14 relative  overflow-hidden">
+        <div className="sparkle-container">
+          <div className="sparkle" style={{ top: "80%", left: "20%", animationDelay: "0s" }} />
+          <div className="sparkle" style={{ top: "90%", left: "60%", animationDelay: "2s" }} />
+          <div className="sparkle" style={{ top: "70%", left: "40%", animationDelay: "4s" }} />
+          <div className="sparkle" style={{ top: "85%", left: "75%", animationDelay: "1s" }} />
+          <div className="sparkle" style={{ top: "95%", left: "10%", animationDelay: "3s" }} />
+
+         
+          <div className="sparkle" style={{ top: "20%", left: "30%", animationDelay: "0.5s" }} />
+          <div className="sparkle" style={{ top: "35%", left: "70%", animationDelay: "2.5s" }} />
+          <div className="sparkle" style={{ top: "15%", left: "50%", animationDelay: "1.5s" }} />
+          <div className="sparkle" style={{ top: "45%", left: "15%", animationDelay: "3.5s" }} />
+          <div className="sparkle" style={{ top: "60%", left: "85%", animationDelay: "4.5s" }} />
+
+          <div className="sparkle" style={{ top: "10%", left: "80%", animationDelay: "1s" }} />
+          <div className="sparkle" style={{ top: "55%", left: "25%", animationDelay: "2s" }} />
+          <div className="sparkle" style={{ top: "75%", left: "55%", animationDelay: "3s" }} />
+          <div className="sparkle" style={{ top: "30%", left: "5%", animationDelay: "4s" }} />
+          <div className="sparkle" style={{ top: "40%", left: "90%", animationDelay: "5s" }} />
+        </div>
+
         <div className="flex flex-col-reverse md:flex-row justify-between items-center mt-20  gap-4">
           <div className="w-full md:w-7/12">
             <p className="text-color font-normal text-lg md:text-3xl"> <Typewriter
@@ -209,7 +230,6 @@ export default function Home() {
        ****************************** */}
 
       <section id="service" className="relative mt-28 px-5 md:px-9 lg:px-14 mb-6 ">
-
         <img className="absolute -right-[0px] -top-[5%]   md:-right-[0px] md:-top-[15%]  w-[30%] md:w-[16%]" src="/Images/Png/flotingGirl.png" alt="flotingGirl" />
 
         <h2 className="text-[#ca4a74] font-normal text-[28px]   md:text-[36px] lg:text-[55px] xl:text-[70px] mt-1 ">Service...</h2>
@@ -218,9 +238,10 @@ export default function Home() {
 
           {/* Card 1 */}
           <div className="p-6 bg-gradient-to-b from-[#f1d7e2] to-[#efc5e4] rounded-2xl shadow-md transition-all duration-300 hover:scale-105 hover:shadow-[0_4px_15px_rgba(255,114,165,0.6)]">
-
-            <h3 className="text-3xl md:text-2xl xl:text-5xl text-[#e6498f] lg:text-4xl font-semibold ff_Road">01</h3>
-            <h4 className="text-xl font-semibold text-[#ca4a74]   mt-4">Portfolio Website Design & Personal Branding</h4>
+            <h3 className="text-3xl md:text-2xl xl:text-5xl text-[#e6498f]  lg:text-4xl font-semibold ff_Road">01</h3>
+            <h4 className="text-xl font-semibold text-[#ca4a74] mt-4">
+              Portfolio Website Design & Personal Branding
+            </h4>
             <ul className="text-[#6d5e76] text-[15px] md:text-lg fw-semibold mt-4 list-disc pl-5">
               <li>Customize layouts with brand color palettes and typography.</li>
               <li>Design aesthetic personal websites and landing pages.</li>
@@ -228,12 +249,14 @@ export default function Home() {
               <li>Optimize for social sharing and SEO.</li>
             </ul>
 
-            {/* <div className="h-[2px]  w-full bg-gradient-to-r from-[rgba(21,255,234,1)] via-[rgba(0,150,255,0.7)] to-[rgba(21,255,234,1)] mt-4 rounded shadow-[0_0_15px_rgba(21,255,234,0.5)] hover:shadow-[0_0_25px_rgba(21,255,234,0.8)] blur-[1px] transition-all duration-300 hover:blur-[5px]"></div> */}
+            {/* <div className="h-[2px] w-full bg-gradient-to-r from-[rgba(21,255,234,1)] via-[rgba(0,150,255,0.7)] to-[rgba(21,255,234,1)] mt-4 rounded shadow-[0_0_15px_rgba(21,255,234,0.5)] hover:shadow-[0_0_25px_rgba(21,255,234,0.8)] blur-[1px] transition-all duration-300 hover:blur-[5px]"></div> */}
 
 
             {/* Hover underline effect */}
             <div className="h-1 w-0 bg-[rgba(21,255,234,1)] mt-3 transition-all duration-300 group-hover:w-full"></div>
           </div>
+
+
 
           {/* Card 2 */}
 
@@ -517,7 +540,14 @@ export default function Home() {
       {/* ******************************
         Contact us   Section Start 
        ****************************** */}
-      <section id="contact" className="mt-8 px-5 relative md:px-9 lg:px-14 " >
+      <section id="contact" className="mt-8  px-5 relative md:px-9 lg:px-14 " >
+        <div className="sparkle-container">
+          <div className="sparkle" style={{ top: "80%", left: "20%", animationDelay: "0s" }} />
+          <div className="sparkle" style={{ top: "90%", left: "60%", animationDelay: "2s" }} />
+          <div className="sparkle" style={{ top: "70%", left: "40%", animationDelay: "4s" }} />
+          <div className="sparkle" style={{ top: "85%", left: "75%", animationDelay: "1s" }} />
+          <div className="sparkle" style={{ top: "95%", left: "10%", animationDelay: "3s" }} />
+        </div>
         <h2 className="text-[#e6498f] font-normal text-[28px]   md:text-[36px] lg:text-[55px] xl:text-[70px] mt-1 ">Let's Connect</h2>
         <p className="mt-2 text-lg font-normal  md:max-w-[600px] text-[#2d2b2f]">Feel free to reach out for collaborations, projects, or just to say hi. I'm always open to new opportunities and interesting conversations. Drop me a message, and I'll get back to you as soon as possible!</p>
         <div className="flex flex-col  md:flex-row md:justify-between gap-6 mt-3">
@@ -621,6 +651,6 @@ export default function Home() {
 
 
 
-    </>
+    </div>
   );
 }
