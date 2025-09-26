@@ -8,7 +8,6 @@ const Experience = [
     },
 
 
-
     {
         company: "Hexabirds Pvt Ltd",
         role: "FrontEnd Developer",

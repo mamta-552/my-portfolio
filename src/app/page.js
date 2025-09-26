@@ -190,7 +190,7 @@ export default function Home() {
             </button>
           </div>
           <div className="w-full md:w-5/12 lg:w-4/12  custom-width anima te-advancedFloating">
-            <img src="/Images/Png/mamta.jpg" alt="HeroImage" className="w-full max-h-[450px]  object-contain " />
+            <img src="/Images/Png/mamta.png" alt="HeroImage" className="w-full max-h-[450px]  object-contain " />
           </div>
         </div>
 
