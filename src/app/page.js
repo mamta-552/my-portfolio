@@ -34,17 +34,13 @@ export default function Home() {
     setPhoneNumber(value.slice(0, 10)); // Limit to 10 digits
   };
 
-  function SendingEmail(e) {
+  async function SendingEmail(e) {
     if (fullName && subject && email && phoneNumber && message) {
-      // console.log("if working ")
       e.preventDefault();
       setLoading(true)
       const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID
       const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID
       const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY
-      // console.log("first", publicKey)
-      // console.log("seonc", serviceId)
-      // console.log("this", templateId)
 
       const templateParams = {
         to_name: "Mamta Sangwan",
@@ -54,32 +50,23 @@ export default function Home() {
         message: message
       }
 
-      // Send the email using EmailJS
-      emailjs.send(serviceId, templateId, templateParams, publicKey)
-        .then((response) => {
-          // console.log('Email sent successfully!', response);
-          setFullName('');
-          setEmail('');
-          setMessage('');
-          setPhoneNumber('');
-          setSubject('');
-          setLoading(false)
-          toast.success("email sent successfully!");
-
-        })
-        .catch((error) => {
-          console.error('Error sending email:', error);
-          setLoading(false)
-          // toast.error("something went wrong in Send Email!");
-        });
+      try {
+        await emailjs.send(serviceId, templateId, templateParams, publicKey);
+        setFullName('');
+        setEmail('');
+        setMessage('');
+        setPhoneNumber('');
+        setSubject('');
+        setLoading(false);
+        toast.success("email sent successfully!");
+      } catch (error) {
+        console.error('Error sending email:', error);
+        setLoading(false);
+        toast.error("Something went wrong while sending the email.");
+      }
     } else {
-      // console.log("else working ")
       toast.error("Please Fill all the Fields");
     }
-
-
-
-
   }
 
 
@@ -175,19 +162,14 @@ export default function Home() {
               </Link>
             </div>
 
-            <button
-              onClick={() => {
-                const link = document.createElement("a");
-                link.href = "/MamtaResume.pdf"; // Path inside public folder
-                link.download = "Mamta_Resume.pdf"; // File name when downloaded
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-              }}
-              className="relative flex items-center justify-center py-1 px-3 shadow bg-[#F44C8B] border rounded-2xl mt-4 overflow-hidden group hover:shadow-[0_0_15px_rgba(244,76,139,0.9)] hover:scale-105 transition-all duration-300">
+            <a
+              href="/mamta_resume.pdf"
+              download="Mamta_Resume.pdf"
+              className="relative inline-flex items-center justify-center py-1 px-3 shadow bg-[#F44C8B] border rounded-2xl mt-4 overflow-hidden group hover:shadow-[0_0_15px_rgba(244,76,139,0.9)] hover:scale-105 transition-all duration-300"
+            >
               <span className="text-white transition-transform duration-300 group-hover:scale-110">RESUME</span>
               <img className="ms-2 transition-transform duration-300 group-hover:scale-110" src="/Images/Svg/download_icon.svg" alt="DownloadIcon" />
-            </button>
+            </a>
           </div>
           <div className="w-full md:w-5/12 lg:w-4/12  custom-width anima te-advancedFloating">
             <img src="/Images/Png/mamta.png" alt="HeroImage" className="w-full max-h-[450px]  object-contain " />
