@@ -129,7 +129,7 @@ export default function Home() {
               delaySpeed={3000}
             /></p>
             <h2 className="text-[#ca4a74] font-semibold text-[30px]  md:text-[40px] lg:text-[60px] xl:text-[80px] mt-1">
-              Hello I'm
+              Hello I&apos;m
             </h2>
             <h1 className="text-color font-semibold text-[36px]  md:text-[45px] lg:text-[60px] xl:text-[80px]" >
               <Typewriter
@@ -144,7 +144,7 @@ export default function Home() {
             </h1>
 
             <p className="text-[#2d2b2f] font-normal text-[16px] lg:text-lg">
-              I'm a <span className="text-[20px] font-extrabold text-color">Front-End Developer</span> specializing in React.js, HTML, CSS, JavaScript, and modern UI libraries.
+              I&apos;m a <span className="text-[20px] font-extrabold text-color">Front-End Developer</span> specializing in React.js, HTML, CSS, JavaScript, and modern UI libraries.
               Passionate about crafting responsive, accessible, and visually appealing web interfaces, I focus on delivering pixel-perfect designs with clean, maintainable code.
               Continuously learning and staying up-to-date with the latest front-end trends, I aim to build seamless digital experiences that engage and inspire users.
             </p>
@@ -530,8 +530,8 @@ export default function Home() {
           <div className="sparkle" style={{ top: "85%", left: "75%", animationDelay: "1s" }} />
           <div className="sparkle" style={{ top: "95%", left: "10%", animationDelay: "3s" }} />
         </div>
-        <h2 className="text-[#e6498f] font-normal text-[28px]   md:text-[36px] lg:text-[55px] xl:text-[70px] mt-1 ">Let's Connect</h2>
-        <p className="mt-2 text-lg font-normal  md:max-w-[600px] text-[#2d2b2f]">Feel free to reach out for collaborations, projects, or just to say hi. I'm always open to new opportunities and interesting conversations. Drop me a message, and I'll get back to you as soon as possible!</p>
+        <h2 className="text-[#e6498f] font-normal text-[28px]   md:text-[36px] lg:text-[55px] xl:text-[70px] mt-1 ">Let&apos;s Connect</h2>
+        <p className="mt-2 text-lg font-normal  md:max-w-[600px] text-[#2d2b2f]">Feel free to reach out for collaborations, projects, or just to say hi. I&apos;m always open to new opportunities and interesting conversations. Drop me a message, and I&apos;ll get back to you as soon as possible!</p>
         <div className="flex flex-col  md:flex-row md:justify-between gap-6 mt-3">
           <div className="w-full relative md:w-4/12 lg:w-5/12 xl:w-4/12">
             <img src="/Images/Png/contactimg.png" alt="Contact" />

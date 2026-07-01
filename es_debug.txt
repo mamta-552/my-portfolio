@@ -1,0 +1,467 @@
+2026-06-29T09:16:41.449Z eslint:cli CLI args: [ '.', '--debug' ]
+2026-06-29T09:16:41.452Z eslint:cli Using flat config? true
+2026-06-29T09:16:41.460Z eslint:cli Running on files
+2026-06-29T09:16:41.462Z eslint:eslint Using config loader LegacyConfigLoader
+2026-06-29T09:16:41.463Z eslint:eslint Using file patterns: .
+2026-06-29T09:16:41.463Z eslint:eslint Deleting cache file at C:\Users\mohit\my-portfolio-1\.eslintcache
+2026-06-29T09:16:41.487Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\.git
+2026-06-29T09:16:41.487Z eslint:config-loader Searching for eslint.config.js
+2026-06-29T09:16:41.489Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:41.490Z eslint:config-loader Calculating config array from config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:41.491Z eslint:config-loader Loading config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:41.491Z eslint:config-loader Loading config from C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:41.491Z eslint:config-loader Config file URL is file:///C:/Users/mohit/my-portfolio-1/eslint.config.mjs
+2026-06-29T09:16:41.571Z eslintrc:config-array-factory Loading {extends:"next/core-web-vitals"} relative to 
+2026-06-29T09:16:41.573Z eslintrc:config-array-factory package.json was not found: Cannot find module 'eslint-config-next/core-web-vitals/package.json'
+Require stack:
+- C:\Users\mohit\my-portfolio-1\__placeholder__.js
+2026-06-29T09:16:41.573Z eslintrc:config-array-factory Loaded: eslint-config-next/core-web-vitals (C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\core-web-vitals.js)
+2026-06-29T09:16:41.573Z eslintrc:config-array-factory Loading JS config file: C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\core-web-vitals.js
+2026-06-29T09:16:41.574Z eslintrc:config-array-factory Loading {extends:"C:\\Users\\mohit\\my-portfolio-1\\node_modules\\eslint-config-next\\index.js"} relative to C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\core-web-vitals.js
+2026-06-29T09:16:41.575Z eslintrc:config-array-factory package.json was not found: Cannot find module 'C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js/package.json'
+Require stack:
+- C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\core-web-vitals.js
+2026-06-29T09:16:41.575Z eslintrc:config-array-factory Loaded: C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js (C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js)
+2026-06-29T09:16:41.575Z eslintrc:config-array-factory Loading JS config file: C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:41.585Z eslintrc:config-array-factory Loading {extends:"plugin:react/recommended"} relative to C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:41.586Z eslintrc:config-array-factory Loading plugin "react" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:41.587Z eslintrc:config-array-factory Loaded: eslint-plugin-react@7.37.4 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react\index.js)
+2026-06-29T09:16:42.093Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react\index.js loaded in: 506ms
+2026-06-29T09:16:42.094Z eslintrc:config-array-factory Loading plugin "react" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react\index.js
+2026-06-29T09:16:42.094Z eslintrc:config-array-factory Loaded: eslint-plugin-react@7.37.4 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react\index.js)
+2026-06-29T09:16:42.094Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react\index.js loaded in: 0ms
+2026-06-29T09:16:42.094Z eslintrc:config-array-factory Loading {extends:"plugin:react-hooks/recommended"} relative to C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.095Z eslintrc:config-array-factory Loading plugin "react-hooks" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.096Z eslintrc:config-array-factory Loaded: eslint-plugin-react-hooks@5.1.0 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react-hooks\index.js)
+2026-06-29T09:16:42.097Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react-hooks\index.js loaded in: 1ms
+2026-06-29T09:16:42.097Z eslintrc:config-array-factory Loading plugin "react-hooks" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react-hooks\index.js
+2026-06-29T09:16:42.098Z eslintrc:config-array-factory Loaded: eslint-plugin-react-hooks@5.1.0 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react-hooks\index.js)
+2026-06-29T09:16:42.098Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react-hooks\index.js loaded in: 0ms
+2026-06-29T09:16:42.098Z eslintrc:config-array-factory Loading {extends:"plugin:@next/next/recommended"} relative to C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.098Z eslintrc:config-array-factory Loading plugin "@next/next" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.099Z eslintrc:config-array-factory Loaded: @next/eslint-plugin-next@15.1.5 (C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js)
+2026-06-29T09:16:42.183Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js loaded in: 84ms
+2026-06-29T09:16:42.183Z eslintrc:config-array-factory Loading plugin "@next/next" from C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js
+2026-06-29T09:16:42.183Z eslintrc:config-array-factory Loaded: @next/eslint-plugin-next@15.1.5 (C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js)
+2026-06-29T09:16:42.184Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js loaded in: 0ms
+2026-06-29T09:16:42.184Z eslintrc:config-array-factory Loading parser "./parser.js" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.185Z eslintrc:config-array-factory package.json was not found: Cannot find module './parser.js/package.json'
+Require stack:
+- C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.185Z eslintrc:config-array-factory Loaded: ./parser.js (C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\parser.js)
+2026-06-29T09:16:42.405Z eslintrc:config-array-factory Loading plugin "import" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.406Z eslintrc:config-array-factory Loaded: eslint-plugin-import@2.31.0 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-import\lib\index.js)
+2026-06-29T09:16:42.587Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-import\lib\index.js loaded in: 181ms
+2026-06-29T09:16:42.587Z eslintrc:config-array-factory Loading plugin "react" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.587Z eslintrc:config-array-factory Loaded: eslint-plugin-react@7.37.4 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react\index.js)
+2026-06-29T09:16:42.587Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-react\index.js loaded in: 0ms
+2026-06-29T09:16:42.587Z eslintrc:config-array-factory Loading plugin "jsx-a11y" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.588Z eslintrc:config-array-factory Loaded: eslint-plugin-jsx-a11y@6.10.2 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-jsx-a11y\lib\index.js)
+2026-06-29T09:16:42.988Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\eslint-plugin-jsx-a11y\lib\index.js loaded in: 400ms
+2026-06-29T09:16:42.989Z eslintrc:config-array-factory Loading parser "@typescript-eslint/parser" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\index.js
+2026-06-29T09:16:42.990Z eslintrc:config-array-factory Loaded: @typescript-eslint/parser@7.18.0 (C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\node_modules\@typescript-eslint\parser\dist\index.js)
+2026-06-29T09:16:43.392Z eslintrc:config-array-factory Loading {extends:"plugin:@next/next/core-web-vitals"} relative to C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\core-web-vitals.js
+2026-06-29T09:16:43.392Z eslintrc:config-array-factory Loading plugin "@next/next" from C:\Users\mohit\my-portfolio-1\node_modules\eslint-config-next\core-web-vitals.js
+2026-06-29T09:16:43.392Z eslintrc:config-array-factory Loaded: @next/eslint-plugin-next@15.1.5 (C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js)
+2026-06-29T09:16:43.392Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js loaded in: 0ms
+2026-06-29T09:16:43.392Z eslintrc:config-array-factory Loading {extends:"plugin:@next/next/recommended"} relative to C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js
+2026-06-29T09:16:43.393Z eslintrc:config-array-factory Loading plugin "@next/next" from C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js
+2026-06-29T09:16:43.393Z eslintrc:config-array-factory Loaded: @next/eslint-plugin-next@15.1.5 (C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js)
+2026-06-29T09:16:43.393Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js loaded in: 0ms
+2026-06-29T09:16:43.393Z eslintrc:config-array-factory Loading plugin "@next/next" from C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js
+2026-06-29T09:16:43.393Z eslintrc:config-array-factory Loaded: @next/eslint-plugin-next@15.1.5 (C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js)
+2026-06-29T09:16:43.393Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js loaded in: 0ms
+2026-06-29T09:16:43.393Z eslintrc:config-array-factory Loading plugin "@next/next" from C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js
+2026-06-29T09:16:43.394Z eslintrc:config-array-factory Loaded: @next/eslint-plugin-next@15.1.5 (C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js)
+2026-06-29T09:16:43.394Z eslintrc:config-array-factory Plugin C:\Users\mohit\my-portfolio-1\node_modules\@next\eslint-plugin-next\dist\index.js loaded in: 0ms
+2026-06-29T09:16:43.395Z eslintrc:flat-compat Translating plugins: [object Object]
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugin: react
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Resolving plugin 'react relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugins: [object Object]
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugin: react-hooks
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Resolving plugin 'react-hooks relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugins: [object Object]
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugin: @next/next
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Resolving plugin '@next/next relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Resolving parser 'undefined' relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugins: [object Object]
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugin: import
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Resolving plugin 'import relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugin: react
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Resolving plugin 'react relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating plugin: jsx-a11y
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Resolving plugin 'jsx-a11y relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.396Z eslintrc:flat-compat Translating environment: browser
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Translating environment: node
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Resolving parser 'undefined' relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Translating plugins: [object Object]
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Translating plugin: @next/next
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Resolving plugin '@next/next relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Translating plugins: [object Object]
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Translating plugin: @next/next
+2026-06-29T09:16:43.400Z eslintrc:flat-compat Resolving plugin '@next/next relative to C:\Users\mohit\my-portfolio-1\__placeholder.js
+2026-06-29T09:16:43.404Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\.gitignore
+2026-06-29T09:16:43.404Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\.gitignore
+2026-06-29T09:16:43.404Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.406Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\.next
+2026-06-29T09:16:43.406Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.407Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.407Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.407Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.450Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\es_debug.txt
+2026-06-29T09:16:43.450Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\es_debug.txt
+2026-06-29T09:16:43.450Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.451Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\jsconfig.json
+2026-06-29T09:16:43.451Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\jsconfig.json
+2026-06-29T09:16:43.451Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.452Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.452Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.452Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.452Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\node_modules
+2026-06-29T09:16:43.452Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.452Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\package-lock.json
+2026-06-29T09:16:43.453Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\package-lock.json
+2026-06-29T09:16:43.453Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.453Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\package.json
+2026-06-29T09:16:43.453Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\package.json
+2026-06-29T09:16:43.453Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.453Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.453Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.453Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.459Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public
+2026-06-29T09:16:43.459Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.460Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\As.ico
+2026-06-29T09:16:43.460Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\As.ico
+2026-06-29T09:16:43.460Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.461Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\favicon.ico
+2026-06-29T09:16:43.461Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\favicon.ico
+2026-06-29T09:16:43.461Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.462Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images
+2026-06-29T09:16:43.462Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.462Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png
+2026-06-29T09:16:43.462Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.463Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\bootstrap.png
+2026-06-29T09:16:43.463Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\bootstrap.png
+2026-06-29T09:16:43.463Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.463Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\contactimg.png
+2026-06-29T09:16:43.463Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\contactimg.png
+2026-06-29T09:16:43.463Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.464Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\css.png
+2026-06-29T09:16:43.464Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\css.png
+2026-06-29T09:16:43.464Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.464Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\figma.png
+2026-06-29T09:16:43.464Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\figma.png
+2026-06-29T09:16:43.464Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.465Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\flotingGirl.png
+2026-06-29T09:16:43.465Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\flotingGirl.png
+2026-06-29T09:16:43.465Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.465Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\html.png
+2026-06-29T09:16:43.465Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\html.png
+2026-06-29T09:16:43.465Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.465Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\js.png
+2026-06-29T09:16:43.465Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\js.png
+2026-06-29T09:16:43.465Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.466Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\mamta.jpeg
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\mamta.jpeg
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.466Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\mamta.png
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\mamta.png
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.466Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\next.png
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\next.png
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.466Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\nodejs.png
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\nodejs.png
+2026-06-29T09:16:43.466Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.467Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\nova.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\nova.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.467Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\protecturo.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\protecturo.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.467Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\python.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\python.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.467Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\react.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\react.png
+2026-06-29T09:16:43.467Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.468Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\schoolweb.png
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\schoolweb.png
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.468Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\tailwind.png
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\tailwind.png
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.468Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Png\uban_ai.png
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Png\uban_ai.png
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg
+2026-06-29T09:16:43.468Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.469Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\django.svg
+2026-06-29T09:16:43.469Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\django.svg
+2026-06-29T09:16:43.469Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.469Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\download_icon.svg
+2026-06-29T09:16:43.469Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\download_icon.svg
+2026-06-29T09:16:43.469Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.469Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\firebase.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\firebase.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.470Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\github.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\github.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.470Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\linkedin.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\linkedin.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.470Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\mainicon.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\mainicon.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.470Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\mongodb.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\mongodb.svg
+2026-06-29T09:16:43.470Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.471Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\slack.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\slack.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.471Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\sql.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\sql.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.471Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\star.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\star.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.471Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\telegram.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\telegram.svg
+2026-06-29T09:16:43.471Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.472Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\Images\Svg\whatsapp.svg
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\Images\Svg\whatsapp.svg
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.472Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\public\mamta_resume.pdf
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\public\mamta_resume.pdf
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.472Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\README.md
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\README.md
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src
+2026-06-29T09:16:43.472Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.473Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app
+2026-06-29T09:16:43.473Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.473Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Data
+2026-06-29T09:16:43.473Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.474Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.474Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.474Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.475Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.475Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.475Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\globals.css
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\globals.css
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.475Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.475Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.476Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.476Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.476Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.476Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:43.476Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:43.476Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.476Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:43.476Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:43.476Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.477Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:43.477Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:43.477Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.477Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:43.477Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:43.477Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.478Z eslint:eslint 12 files found in: 2015ms
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:43.478Z eslint:config-loader Calculating config for file C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:43.478Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.478Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.478Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.478Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.478Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.478Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.478Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Calculating config for C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.479Z eslint:config-loader [Legacy]: Using config file C:\Users\mohit\my-portfolio-1\eslint.config.mjs and base path C:\Users\mohit\my-portfolio-1
+2026-06-29T09:16:43.483Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.483Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\eslint.config.mjs (pass 1)
+2026-06-29T09:16:43.483Z eslint:linter Verify
+2026-06-29T09:16:43.483Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.485Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.798Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.798Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.798Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+2026-06-29T09:16:43.852Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\eslint.config.mjs (pass 1)
+2026-06-29T09:16:43.853Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.853Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.853Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.854Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\postcss.config.mjs (pass 1)
+2026-06-29T09:16:43.854Z eslint:linter Verify
+2026-06-29T09:16:43.854Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.854Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.860Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.860Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.860Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\postcss.config.mjs
+2026-06-29T09:16:43.866Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\postcss.config.mjs (pass 1)
+2026-06-29T09:16:43.866Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.866Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.867Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.867Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\next.config.mjs (pass 1)
+2026-06-29T09:16:43.867Z eslint:linter Verify
+2026-06-29T09:16:43.867Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.867Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.872Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.873Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.873Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\next.config.mjs
+2026-06-29T09:16:43.878Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\next.config.mjs (pass 1)
+2026-06-29T09:16:43.878Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.878Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.878Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.878Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js (pass 1)
+2026-06-29T09:16:43.878Z eslint:linter Verify
+2026-06-29T09:16:43.878Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.878Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.890Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.890Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.890Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js
+2026-06-29T09:16:43.895Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\Data\Projects.js (pass 1)
+2026-06-29T09:16:43.895Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.895Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.895Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.895Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js (pass 1)
+2026-06-29T09:16:43.896Z eslint:linter Verify
+2026-06-29T09:16:43.896Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.896Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.904Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.904Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.904Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js
+2026-06-29T09:16:43.907Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\Data\Experince.js (pass 1)
+2026-06-29T09:16:43.907Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.907Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.907Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.907Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js (pass 1)
+2026-06-29T09:16:43.907Z eslint:linter Verify
+2026-06-29T09:16:43.907Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.907Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.914Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.915Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.915Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js
+2026-06-29T09:16:43.925Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\Data\Skills.js (pass 1)
+2026-06-29T09:16:43.925Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.925Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.925Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.925Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\layout.js (pass 1)
+2026-06-29T09:16:43.925Z eslint:linter Verify
+2026-06-29T09:16:43.925Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.925Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.943Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.943Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.943Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\layout.js
+2026-06-29T09:16:43.963Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\layout.js (pass 1)
+2026-06-29T09:16:43.963Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.963Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.963Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.963Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\Loader.js (pass 1)
+2026-06-29T09:16:43.963Z eslint:linter Verify
+2026-06-29T09:16:43.963Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.963Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.978Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.978Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.978Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\Loader.js
+2026-06-29T09:16:43.990Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\Loader.js (pass 1)
+2026-06-29T09:16:43.990Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:43.990Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:43.990Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:43.990Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\Navbar.js (pass 1)
+2026-06-29T09:16:43.990Z eslint:linter Verify
+2026-06-29T09:16:43.990Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:43.990Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:44.013Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:44.014Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:44.014Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\Navbar.js
+2026-06-29T09:16:44.039Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\Navbar.js (pass 1)
+2026-06-29T09:16:44.039Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:44.039Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:44.039Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:44.039Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js (pass 1)
+2026-06-29T09:16:44.040Z eslint:linter Verify
+2026-06-29T09:16:44.040Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:44.040Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:44.047Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:44.048Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:44.048Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js
+2026-06-29T09:16:44.054Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\Sparkles.js (pass 1)
+2026-06-29T09:16:44.054Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:44.054Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:44.054Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:44.054Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\src\app\page.js (pass 1)
+2026-06-29T09:16:44.054Z eslint:linter Verify
+2026-06-29T09:16:44.054Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:44.055Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:44.118Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:44.118Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:44.118Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\src\app\page.js
+2026-06-29T09:16:44.183Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\src\app\page.js (pass 1)
+2026-06-29T09:16:44.183Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:44.183Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2026-06-29T09:16:44.183Z eslint:eslint Lint C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:44.183Z eslint:linter Linting code for C:\Users\mohit\my-portfolio-1\tailwind.config.mjs (pass 1)
+2026-06-29T09:16:44.183Z eslint:linter Verify
+2026-06-29T09:16:44.183Z eslint:linter With flat config: C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:44.184Z eslint:languages:js Parsing: C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:44.187Z eslint:languages:js Parsing successful: C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:44.187Z eslint:languages:js Scope analysis: C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:44.187Z eslint:languages:js Scope analysis successful: C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+2026-06-29T09:16:44.191Z eslint:linter Generating fixed text for C:\Users\mohit\my-portfolio-1\tailwind.config.mjs (pass 1)
+2026-06-29T09:16:44.191Z eslint:source-code-fixer Applying fixes
+2026-06-29T09:16:44.191Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+
+C:\Users\mohit\my-portfolio-1\eslint.config.mjs
+  12:1  warning  Assign array to a variable before exporting as module default  import/no-anonymous-default-export
+
+C:\Users\mohit\my-portfolio-1\src\app\page.js
+  132:22   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  147:16   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  171:15   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  175:13   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  215:9    warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  413:21   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  505:17   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  533:120  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  534:155  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  534:246  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  537:13   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\mohit\my-portfolio-1\tailwind.config.mjs
+  2:1  warning  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+✖ 13 problems (5 errors, 8 warnings)
+
